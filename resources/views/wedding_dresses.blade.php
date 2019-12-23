@@ -265,5 +265,5 @@
 
     </div>
 </div>
-
+    @include('_partials.footer')
 @endsection

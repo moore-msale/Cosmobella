@@ -17,7 +17,7 @@
 <body>
 @include('_partials.header')
     @yield('content')
-@include('_partials.footer')
+
 
 @include('modals.reserve')
 <script src="{{ asset('js/app.js') }}"></script>
