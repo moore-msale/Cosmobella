@@ -62,9 +62,9 @@
         text-transform: uppercase;
     }
 </style>
-<nav class="navbar menuse navbar-expand-lg py-3 w-100 d-lg-block d-none" style="z-index: 999; background: transparent; position: fixed;">
+<nav class="navbar menuse navbar-expand-lg py-0 w-100 d-lg-block d-none" style="z-index: 999; background: white; position: fixed;">
     <div class="container-fluid top-menu">
-        <div class="row w-100 mx-5 pb-3">
+        <div class="row w-100 mx-0 pb-3">
             <div class="col-lg-5 collapse navbar-collapse pr-0">
                 <nav class="mr-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
