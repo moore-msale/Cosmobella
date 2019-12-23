@@ -155,7 +155,7 @@
                 <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение буква</p>
                 <div class="item moore-btn position-relative d-flex" style="pointer-events:visiblePainted;">
                     <a href="/wedding_dresses" class="btn btn-gold rounded-0 border-0 mt-5 px-4 py-2 rw-medium text-white">Подробнее</a>
-                    <button class="btn second-button mt-5 px-4 py-0 text-uppercase rw-medium" style="font-size:0.81rem;" data-toggle="modal" data-target="#giftModal">Подробнее</button>
+                    <button class="btn second-button mt-5 px-4 py-0 text-uppercase rw-medium" style="font-size:0.81rem;" data-toggle="modal" data-target="#giftModal">Получите подарок</button>
                 </div>
             </div>
             <div class="item rw-medium d-none d-sm-block">
