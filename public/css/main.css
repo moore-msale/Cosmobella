@@ -2,7 +2,14 @@ body
 {
     background-color: white;
 }
-
+.btn{
+    box-shadow: none;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    transform: translateY(-3px);
+}
 @font-face {
     font-family: 'Cormorant Garamond Light';
     src: local('Cormorant Garamond Light'), local('Cormorant-Garamond-Light'),
@@ -132,19 +139,32 @@ body
     color: #fefefe;
     padding:10px 30px;
     background: #D7B56D;
-    box-shadow: 10px 14px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
     cursor: pointer;
     border:0px;
+    transition: 0.5s;
+}
+.first-button:hover
+{
+    box-shadow: 10px 14px 50px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }
 .second-button
 {
     font-size:18px;
     line-height: 150%;
-    color: #D7B56D;
+    color: #D7B56D!important;
     padding: 10px 47px;
     background-color: transparent;
     border: 1px solid #D7B56D;
+    box-shadow: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+.second-button:hover
+{
+    box-shadow: 10px 14px 50px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }
 .third-button
 {
@@ -154,8 +174,15 @@ body
     padding: 10px 47px;
     background-color: white;
     border:none;
-    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
+
     cursor: pointer;
+    transition: 0.5s;
+}
+.third-button:hover
+{
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
 }
 .dress-adv-num
 {
@@ -364,6 +391,18 @@ body
 .reserve::placeholder
 {
     color:#fefefe;
+}
+.gift-title
+{
+    font-size:40px;
+    line-height: 100%;
+    color: #3e2202;
+}
+.gift-desc
+{
+    font-size:14px;
+    line-height: 160%;
+    color:#3e2202;
 }
 @media screen and (max-width:700px) {
     .dress-title

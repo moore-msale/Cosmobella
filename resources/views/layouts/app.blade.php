@@ -20,6 +20,7 @@
 
 
 @include('modals.reserve')
+@include('modals.gift')
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 <script type="text/javascript">

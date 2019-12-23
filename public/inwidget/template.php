@@ -52,9 +52,7 @@ if(!$inWidget instanceof \inWidget\Core) {
 <body>
 <div id="widget" class="widget">
 	<a href="https://instagram.com/<?= $inWidget->data->username ?>" target="_blank" class="title">
-		<div class="icon">&nbsp;</div>
-		<div class="text"><?= $inWidget->lang['title']; ?></div>
-		<div class="clear">&nbsp;</div>
+        <span class="title-text cg-bold" style="padding-left:10%; padding-top:5%; padding-bottom:5%;">Мы в Instagram</span>
 	</a>
 	<?php if($inWidget->toolbar == true): ?>
 		<table class="profile">

@@ -22,20 +22,28 @@ img {
 .widget {
 	border:1px solid #c3c3c3;
 	background:#f9f9f9;
-	border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
+	/*border-radius: 5px 5px 5px 5px;*/
+	/*-webkit-border-radius: 5px 5px 5px 5px;*/
+	/*-moz-border-radius: 5px 5px 5px 5px;*/
 	overflow:hidden;
+}
+.title-text
+{
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+	font-family: "Cormorant Garamond";
+	font-weight: 500;
 }
 	.widget a.title:link, .widget a.title:visited  {
 		display:block;
 		height:33px;
 		text-decoration:none;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#547fa7+0,46719b+100 */
-		background: #46719b; /* Old browsers */
-		background: -moz-linear-gradient(top, #547fa7 0%, #46719b 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #547fa7 0%,#46719b 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom, #547fa7 0%,#46719b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background: #D7B56D; /* Old browsers */
+		background: -moz-linear-gradient(top, #D7B56D 0%, #D7B56D 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #D7B56D 0%,#D7B56D 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #D7B56D 0%,#D7B56D 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#547fa7', endColorstr='#46719b',GradientType=0 ); /* IE6-9 */
 	}
 	.widget .title .icon {
@@ -60,6 +68,7 @@ img {
 			width:100%;
 			height:80px;
 			border-collapse: collapse;
+			display:none;
 		}
 			.widget .profile tr td {
 				padding:0px;
